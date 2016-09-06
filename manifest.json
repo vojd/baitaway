@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "BaitAway",
+  "description": "Hides Taboola click baits",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
